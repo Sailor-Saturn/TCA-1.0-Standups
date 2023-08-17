@@ -18,6 +18,7 @@
 		0BF45A562A8D82610079D4E5 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF45A552A8D82610079D4E5 /* Models.swift */; };
 		0BF45A582A8D85EA0079D4E5 /* StandupCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF45A572A8D85EA0079D4E5 /* StandupCardView.swift */; };
 		0BF45A5E2A8D89970079D4E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF45A5D2A8D89970079D4E5 /* Assets.xcassets */; };
+		0BF45A602A8EADB00079D4E5 /* StandupForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF45A5F2A8EADB00079D4E5 /* StandupForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0BF45A552A8D82610079D4E5 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		0BF45A572A8D85EA0079D4E5 /* StandupCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandupCardView.swift; sourceTree = "<group>"; };
 		0BF45A5D2A8D89970079D4E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BF45A5F2A8EADB00079D4E5 /* StandupForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandupForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				0BF45A572A8D85EA0079D4E5 /* StandupCardView.swift */,
 				0BF45A532A8D818B0079D4E5 /* ContentView.swift */,
 				0BF45A552A8D82610079D4E5 /* Models.swift */,
+				0BF45A5F2A8EADB00079D4E5 /* StandupForm.swift */,
 			);
 			path = Standups;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BF45A202A8D7E900079D4E5 /* StandupsApp.swift in Sources */,
+				0BF45A602A8EADB00079D4E5 /* StandupForm.swift in Sources */,
 				0BF45A582A8D85EA0079D4E5 /* StandupCardView.swift in Sources */,
 				0BF45A542A8D818B0079D4E5 /* ContentView.swift in Sources */,
 				0BF45A522A8D81470079D4E5 /* StandupsList.swift in Sources */,
