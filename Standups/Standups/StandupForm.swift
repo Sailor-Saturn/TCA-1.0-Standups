@@ -30,6 +30,7 @@ struct StandupFormFeature: Reducer {
         case binding(BindingAction<State>) // On this binding action, we will derive the bindings that are as @Binding State
     }
     
+    @Dependency(\.uuid) var uuid
     var body: some ReducerOf<Self> {
         BindingReducer()
             // Takes care of any binding actions, it will update the
@@ -39,7 +40,7 @@ struct StandupFormFeature: Reducer {
         Reduce { state, action in
             switch action {
             case .addAttendeeButtonTapped:
-                let attendee = Attendee(id: Attendee.ID())
+                let attendee = Attendee(id: self.uuid())
                 state.standup.attendees.append(attendee)
                 state.focus = .attendee(attendee.id)
                 
@@ -49,7 +50,7 @@ struct StandupFormFeature: Reducer {
                 state.standup.attendees.remove(atOffsets: indices)
                 if state.standup.attendees.isEmpty {
                     // Make sure we always have at least one attendee
-                    state.standup.attendees.append(Attendee(id: Attendee.ID()))
+                    state.standup.attendees.append(Attendee(id: self.uuid()))
                 }
                 
                 guard let firstIndex = indices.first

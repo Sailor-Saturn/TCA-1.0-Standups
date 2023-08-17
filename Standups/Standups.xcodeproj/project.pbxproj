@@ -19,6 +19,7 @@
 		0BF45A582A8D85EA0079D4E5 /* StandupCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF45A572A8D85EA0079D4E5 /* StandupCardView.swift */; };
 		0BF45A5E2A8D89970079D4E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF45A5D2A8D89970079D4E5 /* Assets.xcassets */; };
 		0BF45A602A8EADB00079D4E5 /* StandupForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF45A5F2A8EADB00079D4E5 /* StandupForm.swift */; };
+		0BF45A622A8EBA370079D4E5 /* StandupFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF45A612A8EBA370079D4E5 /* StandupFormTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		0BF45A572A8D85EA0079D4E5 /* StandupCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandupCardView.swift; sourceTree = "<group>"; };
 		0BF45A5D2A8D89970079D4E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BF45A5F2A8EADB00079D4E5 /* StandupForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandupForm.swift; sourceTree = "<group>"; };
+		0BF45A612A8EBA370079D4E5 /* StandupFormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandupFormTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				0BF45A352A8D7E910079D4E5 /* StandupsTests.swift */,
+				0BF45A612A8EBA370079D4E5 /* StandupFormTests.swift */,
 			);
 			path = StandupsTests;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BF45A362A8D7E910079D4E5 /* StandupsTests.swift in Sources */,
+				0BF45A622A8EBA370079D4E5 /* StandupFormTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
